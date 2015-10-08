@@ -1,0 +1,4 @@
+/local/saeid/libmsr/BUILD/src/CMakeFiles/msr.dir
+/local/saeid/libmsr/BUILD/cmd/CMakeFiles/msr-cmd.dir
+/local/saeid/libmsr/BUILD/src/CMakeFiles/msr-static.dir
+/local/saeid/libmsr/BUILD/cmd/CMakeFiles/msr-turbo.dir

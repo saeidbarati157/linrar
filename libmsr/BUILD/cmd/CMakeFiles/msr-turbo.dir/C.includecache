@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/msr_core.h
+stdint.h
+-
+sys/types.h
+-
+linux/types.h
+-
+
+../include/msr_turbo.h
+stdio.h
+-
+
+/local/saeid/libmsr/cmd/msr-turbo.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+msr_core.h
+/local/saeid/libmsr/cmd/msr_core.h
+msr_turbo.h
+/local/saeid/libmsr/cmd/msr_turbo.h
+

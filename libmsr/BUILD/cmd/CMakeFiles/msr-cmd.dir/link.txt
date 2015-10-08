@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wall -O3 -O2 -g -DNDEBUG    CMakeFiles/msr-cmd.dir/msr.c.o  -o msr -rdynamic 

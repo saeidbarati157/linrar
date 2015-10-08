@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wall -O3 -O2 -g -DNDEBUG    CMakeFiles/msr-turbo.dir/msr-turbo.c.o  -o msr-turbo -rdynamic ../src/libmsr.so -lm -Wl,-rpath,/local/saeid/libmsr/BUILD/src: 

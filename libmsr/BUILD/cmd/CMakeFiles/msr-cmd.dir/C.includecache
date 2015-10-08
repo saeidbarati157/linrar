@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/local/saeid/libmsr/cmd/msr.c
+unistd.h
+-
+stdio.h
+-
+limits.h
+-
+stdlib.h
+-
+libgen.h
+-
+string.h
+-
+errno.h
+-
+sys/stat.h
+-
+

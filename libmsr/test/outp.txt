@@ -1,0 +1,4536 @@
+msr init done
+init done
+MSR_RAPL_POWER_UNIT, 606h
+MSR_PKG_POWER_LIMIT, 610h
+MSR_PKG_ENERGY_STATUS, 611h
+MSR_PKG_POWER_INFO, 614h
+MSR_DRAM_ENERGY_STATUS, 619h
+MSR_DRAM_PERF_STATUS, 61Bh
+MSR_DRAM_POWER_INFO, 61Ch
+MSR_PP0_ENERGY_STATUS, 639h
+IA32_FIXED_CTR_CTRL, 38Dh
+IA32_PERF_GLOBAL_CTRL, 38Fh
+IA32_PERF_GLOBAL_STATUS, 38Eh
+IA32_PERF_GLOBAL_OVF_CTRL, 390h
+IA32_FIXED_CTR0, 309h
+IA32_FIXED_CTR1, 30Ah
+IA32_FIXED_CTR2, 30Bh
+IA32_PMC0, C1h
+IA32_PERFEVTSEL0, 186h
+IA32_PMC1, C2h
+IA32_PERFEVTSEL1, 187h
+IA32_PMC2, C3h
+IA32_PERFEVTSEL2, 188h
+IA32_PMC3, C4h
+IA32_PERFEVTSEL3, 189h
+
+Socket 0:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 0.000000
+watts   = 0.000000
+
+PP
+bits    = 0
+seconds = 0.000000
+watts   = 0.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 0.000000
+watts   = 0.000000
+
+PP
+bits    = 0
+seconds = 0.000000
+watts   = 0.000000
+
+PP policy
+0
+BEGINNING SOCKET 0 TEST
+
+ Testing pkg 0 lower limit
+
+Socket 0:
+PKG
+bits    = 780b40001805f
+seconds = 1.000000
+watts   = 95.000000
+
+bits    = 780b40001805f
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 0.000000
+watts   = 0.000000
+
+PP
+bits    = 0
+seconds = 0.000000
+watts   = 0.000000
+
+PP policy
+140736196009504
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 0.000000
+watts   = 0.000000
+
+PP
+bits    = 0
+seconds = 0.000000
+watts   = 0.000000
+
+PP policy
+140736196009504
+
+ Testing pkg 0 upper limit
+
+Socket 0:
+PKG
+bits    = 1380780001805f
+seconds = 1.000000
+watts   = 95.000000
+
+bits    = 1380780001805f
+seconds = 9.000000
+watts   = 120.000000
+
+DRAM
+bits    = 0
+seconds = 0.000000
+watts   = 0.000000
+
+PP
+bits    = 0
+seconds = 0.000000
+watts   = 0.000000
+
+PP policy
+140736196009504
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 0.000000
+watts   = 0.000000
+
+PP
+bits    = 0
+seconds = 0.000000
+watts   = 0.000000
+
+PP policy
+140736196009504
+
+ Testing socket 0 limits
+
+Socket 0:
+PKG
+bits    = b80870001806e
+seconds = 1.000000
+watts   = 110.000000
+
+bits    = b80870001806e
+seconds = 5.000000
+watts   = 135.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+ Testing socket 0 limits with new values
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+FINISHED SOCKET 0 TEST
+BEGINNING SOCKET 1 TEST
+
+ Testing pkg 1 lower limit
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+Socket 1:
+PKG
+bits    = 780b40001805f
+seconds = 1.000000
+watts   = 95.000000
+
+bits    = 780b40001805f
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+ Testing pkg 1 upper limit
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+Socket 1:
+PKG
+bits    = 1380780001805f
+seconds = 1.000000
+watts   = 95.000000
+
+bits    = 1380780001805f
+seconds = 9.000000
+watts   = 120.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+ Testing socket 1 limits
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = b80870001806e
+seconds = 1.000000
+watts   = 110.000000
+
+bits    = b80870001806e
+seconds = 5.000000
+watts   = 135.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+ Testing socket 1 limits with new values
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+FINISHED SOCKET 1 TEST
+TESTING ALL SETTINGS
+
+ Testing all sockets
+
+Socket 0:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+set limits done
+
+NEW
+
+pkg 1
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000000
+pkg 2
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000085
+ Testing pkg 1 upper limit
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+Socket 1:
+PKG
+bits    = 1380780001805f
+seconds = 1.000000
+watts   = 95.000000
+
+bits    = 1380780001805f
+seconds = 9.000000
+watts   = 120.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+ Testing socket 1 limits
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = b80870001806e
+seconds = 1.000000
+watts   = 110.000000
+
+bits    = b80870001806e
+seconds = 5.000000
+watts   = 135.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+ Testing socket 1 limits with new values
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+FINISHED SOCKET 1 TEST
+TESTING ALL SETTINGS
+
+ Testing all sockets
+
+Socket 0:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+set limits done
+
+NEW
+
+pkg 1
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000000
+pkg 2
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000085
+ Testing pkg 1 upper limit
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+Socket 1:
+PKG
+bits    = 1380780001805f
+seconds = 1.000000
+watts   = 95.000000
+
+bits    = 1380780001805f
+seconds = 9.000000
+watts   = 120.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+ Testing socket 1 limits
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = b80870001806e
+seconds = 1.000000
+watts   = 110.000000
+
+bits    = b80870001806e
+seconds = 5.000000
+watts   = 135.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+ Testing socket 1 limits with new values
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+FINISHED SOCKET 1 TEST
+TESTING ALL SETTINGS
+
+ Testing all sockets
+
+Socket 0:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+set limits done
+
+NEW
+
+pkg 1
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000000
+pkg 2
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000085
+ Testing pkg 1 upper limit
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+Socket 1:
+PKG
+bits    = 1380780001805f
+seconds = 1.000000
+watts   = 95.000000
+
+bits    = 1380780001805f
+seconds = 9.000000
+watts   = 120.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+ Testing socket 1 limits
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = b80870001806e
+seconds = 1.000000
+watts   = 110.000000
+
+bits    = b80870001806e
+seconds = 5.000000
+watts   = 135.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+ Testing socket 1 limits with new values
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+FINISHED SOCKET 1 TEST
+TESTING ALL SETTINGS
+
+ Testing all sockets
+
+Socket 0:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+set limits done
+
+NEW
+
+pkg 1
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000000
+pkg 2
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000085
+ Testing pkg 1 upper limit
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+Socket 1:
+PKG
+bits    = 1380780001805f
+seconds = 1.000000
+watts   = 95.000000
+
+bits    = 1380780001805f
+seconds = 9.000000
+watts   = 120.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+ Testing socket 1 limits
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = b80870001806e
+seconds = 1.000000
+watts   = 110.000000
+
+bits    = b80870001806e
+seconds = 5.000000
+watts   = 135.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+ Testing socket 1 limits with new values
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+FINISHED SOCKET 1 TEST
+TESTING ALL SETTINGS
+
+ Testing all sockets
+
+Socket 0:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+set limits done
+
+NEW
+
+pkg 1
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000000
+pkg 2
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000085
+ Testing pkg 1 upper limit
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+Socket 1:
+PKG
+bits    = 1380780001805f
+seconds = 1.000000
+watts   = 95.000000
+
+bits    = 1380780001805f
+seconds = 9.000000
+watts   = 120.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+ Testing socket 1 limits
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = b80870001806e
+seconds = 1.000000
+watts   = 110.000000
+
+bits    = b80870001806e
+seconds = 5.000000
+watts   = 135.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+ Testing socket 1 limits with new values
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+FINISHED SOCKET 1 TEST
+TESTING ALL SETTINGS
+
+ Testing all sockets
+
+Socket 0:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+set limits done
+
+NEW
+
+pkg 1
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000000
+pkg 2
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000085
+ Testing pkg 1 upper limit
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+Socket 1:
+PKG
+bits    = 1380780001805f
+seconds = 1.000000
+watts   = 95.000000
+
+bits    = 1380780001805f
+seconds = 9.000000
+watts   = 120.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+ Testing socket 1 limits
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = b80870001806e
+seconds = 1.000000
+watts   = 110.000000
+
+bits    = b80870001806e
+seconds = 5.000000
+watts   = 135.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+ Testing socket 1 limits with new values
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+FINISHED SOCKET 1 TEST
+TESTING ALL SETTINGS
+
+ Testing all sockets
+
+Socket 0:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+set limits done
+
+NEW
+
+pkg 1
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000000
+pkg 2
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000085
+ Testing pkg 1 upper limit
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+Socket 1:
+PKG
+bits    = 1380780001805f
+seconds = 1.000000
+watts   = 95.000000
+
+bits    = 1380780001805f
+seconds = 9.000000
+watts   = 120.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+ Testing socket 1 limits
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = b80870001806e
+seconds = 1.000000
+watts   = 110.000000
+
+bits    = b80870001806e
+seconds = 5.000000
+watts   = 135.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+ Testing socket 1 limits with new values
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+FINISHED SOCKET 1 TEST
+TESTING ALL SETTINGS
+
+ Testing all sockets
+
+Socket 0:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+set limits done
+
+NEW
+
+pkg 1
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000000
+pkg 2
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000085
+ Testing pkg 1 upper limit
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+Socket 1:
+PKG
+bits    = 1380780001805f
+seconds = 1.000000
+watts   = 95.000000
+
+bits    = 1380780001805f
+seconds = 9.000000
+watts   = 120.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+ Testing socket 1 limits
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = b80870001806e
+seconds = 1.000000
+watts   = 110.000000
+
+bits    = b80870001806e
+seconds = 5.000000
+watts   = 135.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+ Testing socket 1 limits with new values
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+FINISHED SOCKET 1 TEST
+TESTING ALL SETTINGS
+
+ Testing all sockets
+
+Socket 0:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+set limits done
+
+NEW
+
+pkg 1
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000000
+pkg 2
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000085
+ Testing pkg 1 upper limit
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+Socket 1:
+PKG
+bits    = 1380780001805f
+seconds = 1.000000
+watts   = 95.000000
+
+bits    = 1380780001805f
+seconds = 9.000000
+watts   = 120.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+ Testing socket 1 limits
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = b80870001806e
+seconds = 1.000000
+watts   = 110.000000
+
+bits    = b80870001806e
+seconds = 5.000000
+watts   = 135.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+ Testing socket 1 limits with new values
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+FINISHED SOCKET 1 TEST
+TESTING ALL SETTINGS
+
+ Testing all sockets
+
+Socket 0:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+set limits done
+
+NEW
+
+pkg 1
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000000
+pkg 2
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000085
+ Testing pkg 1 upper limit
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+Socket 1:
+PKG
+bits    = 1380780001805f
+seconds = 1.000000
+watts   = 95.000000
+
+bits    = 1380780001805f
+seconds = 9.000000
+watts   = 120.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+ Testing socket 1 limits
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = b80870001806e
+seconds = 1.000000
+watts   = 110.000000
+
+bits    = b80870001806e
+seconds = 5.000000
+watts   = 135.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+ Testing socket 1 limits with new values
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+FINISHED SOCKET 1 TEST
+TESTING ALL SETTINGS
+
+ Testing all sockets
+
+Socket 0:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+set limits done
+
+NEW
+
+pkg 1
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000000
+pkg 2
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000085
+ Testing pkg 1 upper limit
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+Socket 1:
+PKG
+bits    = 1380780001805f
+seconds = 1.000000
+watts   = 95.000000
+
+bits    = 1380780001805f
+seconds = 9.000000
+watts   = 120.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+ Testing socket 1 limits
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = b80870001806e
+seconds = 1.000000
+watts   = 110.000000
+
+bits    = b80870001806e
+seconds = 5.000000
+watts   = 135.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+ Testing socket 1 limits with new values
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+FINISHED SOCKET 1 TEST
+TESTING ALL SETTINGS
+
+ Testing all sockets
+
+Socket 0:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+set limits done
+
+NEW
+
+pkg 1
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000000
+pkg 2
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000085
+ Testing pkg 1 upper limit
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+Socket 1:
+PKG
+bits    = 1380780001805f
+seconds = 1.000000
+watts   = 95.000000
+
+bits    = 1380780001805f
+seconds = 9.000000
+watts   = 120.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+ Testing socket 1 limits
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = b80870001806e
+seconds = 1.000000
+watts   = 110.000000
+
+bits    = b80870001806e
+seconds = 5.000000
+watts   = 135.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+ Testing socket 1 limits with new values
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+FINISHED SOCKET 1 TEST
+TESTING ALL SETTINGS
+
+ Testing all sockets
+
+Socket 0:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+set limits done
+
+NEW
+
+pkg 1
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000000
+pkg 2
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000085
+ Testing pkg 1 upper limit
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+Socket 1:
+PKG
+bits    = 1380780001805f
+seconds = 1.000000
+watts   = 95.000000
+
+bits    = 1380780001805f
+seconds = 9.000000
+watts   = 120.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+ Testing socket 1 limits
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = b80870001806e
+seconds = 1.000000
+watts   = 110.000000
+
+bits    = b80870001806e
+seconds = 5.000000
+watts   = 135.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+ Testing socket 1 limits with new values
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+FINISHED SOCKET 1 TEST
+TESTING ALL SETTINGS
+
+ Testing all sockets
+
+Socket 0:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+set limits done
+
+NEW
+
+pkg 1
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000000
+pkg 2
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000085
+ Testing pkg 1 upper limit
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+Socket 1:
+PKG
+bits    = 1380780001805f
+seconds = 1.000000
+watts   = 95.000000
+
+bits    = 1380780001805f
+seconds = 9.000000
+watts   = 120.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+ Testing socket 1 limits
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = b80870001806e
+seconds = 1.000000
+watts   = 110.000000
+
+bits    = b80870001806e
+seconds = 5.000000
+watts   = 135.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+ Testing socket 1 limits with new values
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+FINISHED SOCKET 1 TEST
+TESTING ALL SETTINGS
+
+ Testing all sockets
+
+Socket 0:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+set limits done
+
+NEW
+
+pkg 1
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000000
+pkg 2
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000085
+ Testing pkg 1 upper limit
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+Socket 1:
+PKG
+bits    = 1380780001805f
+seconds = 1.000000
+watts   = 95.000000
+
+bits    = 1380780001805f
+seconds = 9.000000
+watts   = 120.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+ Testing socket 1 limits
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = b80870001806e
+seconds = 1.000000
+watts   = 110.000000
+
+bits    = b80870001806e
+seconds = 5.000000
+watts   = 135.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+ Testing socket 1 limits with new values
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+FINISHED SOCKET 1 TEST
+TESTING ALL SETTINGS
+
+ Testing all sockets
+
+Socket 0:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+set limits done
+
+NEW
+
+pkg 1
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000000
+pkg 2
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000085
+ Testing pkg 1 upper limit
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+Socket 1:
+PKG
+bits    = 1380780001805f
+seconds = 1.000000
+watts   = 95.000000
+
+bits    = 1380780001805f
+seconds = 9.000000
+watts   = 120.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+ Testing socket 1 limits
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = b80870001806e
+seconds = 1.000000
+watts   = 110.000000
+
+bits    = b80870001806e
+seconds = 5.000000
+watts   = 135.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+ Testing socket 1 limits with new values
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+FINISHED SOCKET 1 TEST
+TESTING ALL SETTINGS
+
+ Testing all sockets
+
+Socket 0:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+set limits done
+
+NEW
+
+pkg 1
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000000
+pkg 2
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000085
+ Testing pkg 1 upper limit
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+Socket 1:
+PKG
+bits    = 1380780001805f
+seconds = 1.000000
+watts   = 95.000000
+
+bits    = 1380780001805f
+seconds = 9.000000
+watts   = 120.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+ Testing socket 1 limits
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = b80870001806e
+seconds = 1.000000
+watts   = 110.000000
+
+bits    = b80870001806e
+seconds = 5.000000
+watts   = 135.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+ Testing socket 1 limits with new values
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+FINISHED SOCKET 1 TEST
+TESTING ALL SETTINGS
+
+ Testing all sockets
+
+Socket 0:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+set limits done
+
+NEW
+
+pkg 1
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000000
+pkg 2
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000085
+ Testing pkg 1 upper limit
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+Socket 1:
+PKG
+bits    = 1380780001805f
+seconds = 1.000000
+watts   = 95.000000
+
+bits    = 1380780001805f
+seconds = 9.000000
+watts   = 120.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+ Testing socket 1 limits
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = b80870001806e
+seconds = 1.000000
+watts   = 110.000000
+
+bits    = b80870001806e
+seconds = 5.000000
+watts   = 135.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+ Testing socket 1 limits with new values
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+FINISHED SOCKET 1 TEST
+TESTING ALL SETTINGS
+
+ Testing all sockets
+
+Socket 0:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+set limits done
+
+NEW
+
+pkg 1
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000000
+pkg 2
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000085
+ Testing pkg 1 upper limit
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+Socket 1:
+PKG
+bits    = 1380780001805f
+seconds = 1.000000
+watts   = 95.000000
+
+bits    = 1380780001805f
+seconds = 9.000000
+watts   = 120.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+ Testing socket 1 limits
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = b80870001806e
+seconds = 1.000000
+watts   = 110.000000
+
+bits    = b80870001806e
+seconds = 5.000000
+watts   = 135.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+ Testing socket 1 limits with new values
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+FINISHED SOCKET 1 TEST
+TESTING ALL SETTINGS
+
+ Testing all sockets
+
+Socket 0:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+set limits done
+
+NEW
+
+pkg 1
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000000
+pkg 2
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000085
+ Testing pkg 1 upper limit
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+Socket 1:
+PKG
+bits    = 1380780001805f
+seconds = 1.000000
+watts   = 95.000000
+
+bits    = 1380780001805f
+seconds = 9.000000
+watts   = 120.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+140736196009504
+
+ Testing socket 1 limits
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = b80870001806e
+seconds = 1.000000
+watts   = 110.000000
+
+bits    = b80870001806e
+seconds = 5.000000
+watts   = 135.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 35.000000
+
+PP
+bits    = 0
+seconds = 2.000000
+watts   = 132.000000
+
+PP policy
+0
+
+ Testing socket 1 limits with new values
+
+Socket 0:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400038064
+seconds = 2.000000
+watts   = 100.000000
+
+bits    = 780b400038064
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 2.000000
+watts   = 25.000000
+
+PP
+bits    = 0
+seconds = 1.000000
+watts   = 115.000000
+
+PP policy
+0
+FINISHED SOCKET 1 TEST
+TESTING ALL SETTINGS
+
+ Testing all sockets
+
+Socket 0:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+
+Socket 1:
+PKG
+bits    = 780b400018050
+seconds = 1.000000
+watts   = 80.000000
+
+bits    = 780b400018050
+seconds = 3.000000
+watts   = 180.000000
+
+DRAM
+bits    = 0
+seconds = 1.000000
+watts   = 50.000000
+
+PP
+bits    = 0
+seconds = 8.000000
+watts   = 110.000000
+
+PP policy
+0
+set limits done
+
+NEW
+
+pkg 1
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000000
+pkg 2
+pkg_watts=   0.0000   elapsed=  0.00000   timestamp=  0.000085

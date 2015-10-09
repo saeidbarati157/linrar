@@ -221,9 +221,9 @@ void rapl_r_test(struct rapl_data ** rd)
     poll_rapl_data(1, &r2);
     //poll_rapl_data(0, NULL);
     //poll_rapl_data(1, NULL);
-    printf("pkg 1\n");
+    printf("pkg1=   ");
     dump_rapl_data(r1, stdout);
-    printf("pkg 2\n");
+    printf("pkg2=   ");
     dump_rapl_data(r2, stdout);
 
 #ifdef MEMTEST
@@ -260,9 +260,9 @@ void rapl_r_test(struct rapl_data ** rd)
 
     poll_rapl_data(0, &r1);
     poll_rapl_data(1, &r2);
-    printf("pkg 1\n");
+    printf("pkg1=   ");
     dump_rapl_data(r1, stdout);
-    printf("pkg 2\n");
+    printf("pkg2=   ");
     dump_rapl_data(r2, stdout);
 }
 

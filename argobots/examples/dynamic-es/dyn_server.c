@@ -162,10 +162,42 @@ static float get_power()
     FILE *fp;
     float current_power;
 //    system("./RaplPowerMonitor_onetime > power.txt");
-    system("./libmsr/libmsr_get > power.txt");
-    fp= fopen("power.txt","r");
+   // system("./libmsr/libmsr_get > power2.txt");
+
+    fp= fopen("power2.txt","r");
     if (fp==NULL) handle_error("ERROR:opening file failed");
-    fscanf(fp,"%f",&current_power);
+    
+    char pkg_number[32];
+    char pkg_str[32];
+    float pkg_watts;
+    char elapsed_str[32];
+    float elapsed_time;
+    char time_stamp_str[32];
+    float time_stamp;
+
+    int total_pkg_numbers=2;
+    int counter=0;
+
+    while(fscanf(fp, "%s %s %f %s %f %s %f\n",pkg_number, pkg_str,&pkg_watts,elapsed_str,&elapsed_time,time_stamp_str ,&time_stamp) !=EOF)
+    {
+        counter++;
+        current_power+=pkg_watts;
+
+        //printf("pkg_watts = %f\n",pkg_watts);
+
+        if (counter == total_pkg_numbers){
+            start_power = current_power;
+          //  printf("currnet power = %f\n",current_power);
+            current_power = 0;
+        }
+
+
+    }
+
+    finish_power = current_power;
+    //fscanf(fp,"%f",&current_power);
+    //printf("%f\n",finish_power - start_power);
+
     fclose(fp);
-    return current_power;
+    return (finish_power - start_power);
 }

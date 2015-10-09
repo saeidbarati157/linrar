@@ -162,7 +162,7 @@ static float get_power()
     FILE *fp;
     float current_power;
 //    system("./RaplPowerMonitor_onetime > power.txt");
-   // system("./libmsr/libmsr_get > power2.txt");
+    system("./libmsr/libmsr_get");
 
     fp= fopen("power2.txt","r");
     if (fp==NULL) handle_error("ERROR:opening file failed");
